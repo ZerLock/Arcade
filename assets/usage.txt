@@ -1,0 +1,36 @@
+                                 .___
+_____ _______   ____ _____     __| _/____
+\__  \\_  __ \_/ ___\\__  \   / __ |/ __ \
+ / __ \|  | \/\  \___ / __ \_/ /_/ \  ___/
+(____  /__|    \___  >____  /\____ |\___  >
+     \/            \/     \/      \/    \/
+
+Usage:
+    ./arcade <graphical library>
+
+Compilation:
+    "make": make all the arcade project
+    "make core": compile only core part (no dynamic libraries)
+    "make graphicals": compile only graphical libraries
+    "make games": compile only game libraries
+
+Documentation:
+    "make docs": generate Doxygen documentation at ./doc/html/index.htmt
+    "make clean_docs": erase the directory of Doxygen documentation
+
+    There is also a .pdf that describe our project
+
+Controls:
+    - Escape: Go to home
+    - Backspace: Quit
+    - p: next game
+    - o: previous game
+    - m: next graphical
+    - l: previous graphical
+    - arrows: in game, controls the player
+              in menu, left and right arrows to select graphical, up and down arrows to select game
+
+Mainteners:
+    - Léo Dubosclard    (leo.dubosclard@epitech.eu)
+    - Thomas Mazaud     (thomas.mazaud@epitech.eu)
+    - Maxime Dziura     (maxime.dziura@epitech.eu)
